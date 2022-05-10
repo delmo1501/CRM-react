@@ -1,0 +1,20 @@
+{
+  "clientes": [
+    {
+      "nombre": "Bruno Delmoro",
+      "empresa": "12312",
+      "email": "delmo123123@gmail.com",
+      "phone": "+491742554604",
+      "notes": "",
+      "id": 1
+    },
+    {
+      "nombre": "Bruno Delmoro",
+      "empresa": "asdas",
+      "email": "delmo123123@gmail.com",
+      "phone": "+491742554604",
+      "notes": "",
+      "id": 2
+    }
+  ]
+}

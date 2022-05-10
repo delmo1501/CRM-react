@@ -1,0 +1,5 @@
+/* INSTALAR TAILWIND : npm i autoprefixer postcss tailwindcss, npx tailwindcss init -p */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
