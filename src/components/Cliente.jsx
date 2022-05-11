@@ -2,6 +2,8 @@ import React from 'react'
 import { useNavigate } from 'react-router-dom'
 
 const Cliente = ({cliente}) => {
+
+  const navigate = useNavigate()
   //destructuring
   const {nombre, empresa, email, phone, notes, id } = cliente
 
@@ -21,6 +23,7 @@ const Cliente = ({cliente}) => {
             <button
              type='button'
              className='bg-green-600 hover:bg-green-700 block text-white w-full p-2 font-bold text-sm uppercase rounded '
+             onClick={() => navigate(`/clientes/${id}`)}
              >
               Check
             </button>
